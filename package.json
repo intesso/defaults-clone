@@ -1,0 +1,31 @@
+{
+  "name": "defaults-clone",
+  "version": "1.0.0",
+  "description": "deep defaults with cloned arguments ",
+  "main": "index.js",
+  "dependencies": {
+    "for-own": "^0.1.4",
+    "is-extendable": "^0.1.1",
+    "clone": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intesso/defaults-clone.git"
+  },
+  "keywords": [
+    "defaults",
+    "clone"
+  ],
+  "author": "Andi Neck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intesso/defaults-clone/issues"
+  },
+  "homepage": "https://github.com/intesso/defaults-clone#readme"
+}
