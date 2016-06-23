@@ -9,10 +9,10 @@
     "clone": "^1.0.2"
   },
   "devDependencies": {
-    "ava": "^0.15.2"
+    "tape": "^4.6.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

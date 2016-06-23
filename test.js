@@ -1,5 +1,4 @@
-import test from 'ava'
-
+var test = require('tape');
 var defaults = require('./index');
 
 var a1 = {
@@ -28,7 +27,7 @@ var a2 = {
   c: 23
 };
 
-test('deep defaults', t => {
+test('deep defaults', function(t) {
 
   var obj = defaults({}, a1, a2);
 
@@ -36,11 +35,11 @@ test('deep defaults', t => {
   t.is(obj.b, 12);
   t.is(obj.a.aa.aaa(), 1111);
 
-  t.pass();
+  t.end();
 
 });
 
-test('cloned instances arg > 1', t => {
+test('cloned instances arg > 1', function(t) {
 
   var obj = defaults({}, a1, a2);
 
@@ -55,11 +54,11 @@ test('cloned instances arg > 1', t => {
   t.is(a1.a.aa.aaa(), 1111);
   t.is(a2.a.aa.aaa(), 2111);
 
-  t.pass();
+  t.end();
 
 });
 
-test('no cloned first arg', t => {
+test('no cloned first arg', function(t) {
 
   var first = {
     b : 42,
@@ -88,6 +87,6 @@ test('no cloned first arg', t => {
   t.is(a1.b, 12);
   t.is(a2.b, 22);
 
-  t.pass();
+  t.end();
 
 });
