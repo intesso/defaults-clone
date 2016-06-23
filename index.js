@@ -1,3 +1,5 @@
+'use strict';
+
 var defaults = require('./defaults-deep');
 var clone = require('clone');
 
