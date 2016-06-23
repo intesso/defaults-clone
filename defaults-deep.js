@@ -10,7 +10,7 @@
 
 'use strict';
 
-var isObject = require('is-extendable');
+var isExtendable = require('is-extendable');
 var forOwn = require('for-own');
 
 
@@ -23,7 +23,7 @@ function defaultsDeep(target, objects) {
       // add the missing property, or allow a null property to be updated
       if (val == null) {
         target[key] = value;
-      } else if (isObject(val) && isObject(value)) {
+      } else if (isExtendable(val) && isExtendable(value)) {
         defaultsDeep(val, value);
       }
     });

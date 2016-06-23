@@ -4,9 +4,9 @@
   "description": "deep defaults with cloned arguments ",
   "main": "index.js",
   "dependencies": {
+    "clone-deep": "^0.2.4",
     "for-own": "^0.1.4",
-    "is-extendable": "^0.1.1",
-    "clone": "^1.0.2"
+    "is-extendable": "^0.1.1"
   },
   "devDependencies": {
     "tape": "^4.6.0"

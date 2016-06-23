@@ -1,6 +1,8 @@
 # defaults-clone
 
-> Deep defaults based on [defaults-deep](https://github.com/jonschlinkert/defaults-deep) with [clone]()d arguments. for node.js and the browser with browserify.
+> Deep defaults based on [defaults-deep](https://github.com/jonschlinkert/defaults-deep) with cloned arguments using [clone-deep](https://github.com/jonschlinkert/clone-deep).
+
+> for node.js and the browser with browserify.
 
 
 # install

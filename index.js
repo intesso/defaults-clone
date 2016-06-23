@@ -1,7 +1,7 @@
 'use strict';
 
 var defaults = require('./defaults-deep');
-var clone = require('clone');
+var clone = require('clone-deep');
 
 module.exports = function defaultsClone() {
   var args = [].slice.call(arguments);
