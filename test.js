@@ -90,3 +90,16 @@ test('no cloned first arg', function(t) {
   t.end();
 
 });
+
+test('first argument undefined', function(t) {
+  var arg1 = undefined;
+
+  arg1 = defaults(arg1, a1, a2);
+
+  t.is(arg1.c, 23);
+  t.is(arg1.b, 12);
+  t.is(arg1.a.aa.aaa(), 1111);
+
+  t.end();
+
+});
