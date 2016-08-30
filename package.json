@@ -1,6 +1,6 @@
 {
   "name": "defaults-clone",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "deep defaults with cloned arguments ",
   "main": "index.js",
   "dependencies": {
