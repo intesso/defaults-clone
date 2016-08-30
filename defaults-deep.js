@@ -29,7 +29,7 @@ function defaultsDeep(target, objects) {
     });
   }
 
-  var len = arguments.length, i = 0;
+  var len = arguments.length, i = 1;
   while (i < len) {
     var obj = arguments[i++];
     if (obj) {
