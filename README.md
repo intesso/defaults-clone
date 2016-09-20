@@ -4,6 +4,8 @@
 
 > for node.js and the browser with browserify.
 
+> also handles functions in the object tree nicely.
+
 
 # install
 
