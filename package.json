@@ -4,12 +4,12 @@
   "description": "deep defaults with cloned arguments ",
   "main": "index.js",
   "dependencies": {
-    "clone-deep": "^0.2.4",
-    "for-own": "^0.1.4",
-    "is-extendable": "^0.1.1"
+    "clone-deep": "^4.0.1",
+    "for-own": "^1.0.0",
+    "is-extendable": "^1.0.1"
   },
   "devDependencies": {
-    "tape": "^4.6.0"
+    "tape": "^4.13.2"
   },
   "scripts": {
     "test": "node test.js"
